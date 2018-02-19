@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>One Page Scroll with only Html and CSS</title>
+
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+<body>
+    <nav class="links">
+        <label for="rd_nodejs">NodeJS</label>
+        <label for="rd_javascript">JavaScript</label>
+        <label for="rd_php">PHP</label>
+        <label for="rd_css">CSS</label>
+        <label for="rd_html">HTML</label>
+    </nav>
+
+    <div class="scroll">
+        <input type="radio" name="grupo" id="rd_nodejs" checked="true">
+        <input type="radio" name="grupo" id="rd_javascript">
+        <input type="radio" name="grupo" id="rd_php">
+        <input type="radio" name="grupo" id="rd_css">
+        <input type="radio" name="grupo" id="rd_html">
+    
+        <section class="secoes">
+            <section class="bloco" id="nodejs"><a href="www.nodejs.org"><img src="imagens/nodejs.png"></a></section>
+            <section class="bloco" id="javascript"><a href="www.javascript.com"><img src="imagens/javascript.png"></a></section>
+            <section class="bloco" id="php"><a href="www.php.net"><img src="imagens/php.png"></a></section>
+            <section class="bloco" id="css"><a href="www.pt.wikipedia.org/wiki/Cascading_Style_Sheets"><img src="imagens/css.png"></a></section>
+            <section class="bloco" id="html"><a href="www.pt.wikipedia.org/wiki/HTML"><img src="imagens/html.png"></a></section>
+        </section>
+    </div>
+</body>
+</html>
